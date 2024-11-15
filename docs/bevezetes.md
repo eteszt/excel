@@ -25,7 +25,7 @@ slug: /
 
 1. **Sorrendben haladj**: Az anyagok egymásra épülnek
 2. **Próbáld ki**: Minden lecke tartalmaz gyakorlati példákat
-3. **Gyakorolj**: Oldd meg a feladatokat minden fejezet végén
+3. **Gyakorolj**: Oldd meg a feladatokat minden fejezet végén!
 
 ## Szükséges előismeretek
 

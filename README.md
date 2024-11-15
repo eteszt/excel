@@ -1,4 +1,4 @@
-# Docusaurus Python
+# Docusaurus Oktatási Sablon
 
 Ez a repository egy általános Docusaurus sablon oktatási weboldalak készítéséhez. A sablon tartalmazza az összes szükséges alapbeállítást és komponenst interaktív oktatási anyagok létrehozásához.
 

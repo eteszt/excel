@@ -1,21 +1,20 @@
 const config = {
-  title: 'HTML és CSS Tananyag',
-  tagline: 'Kezdő webfejlesztő tananyag',
+  title: 'Oktatási Anyag',
+  tagline: 'Interaktív tananyag',
   favicon: 'img/favicon.ico',
 
+  // Itt az URL-t és baseUrl-t kell majd módosítani az új projekteknél
   url: 'https://eteszt.github.io',
-  baseUrl: '/html-css-tananyag/',
+  baseUrl: '/docusaurus-edu-template/',
   organizationName: 'eteszt', 
-  projectName: 'html-css-tananyag',
+  projectName: 'docusaurus-edu-template',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Csak a live-codeblock marad itt
-  themes: [
-    '@docusaurus/theme-live-codeblock'
-  ],
+  // Megtartjuk az interaktív kód blokkokat
+  themes: ['@docusaurus/theme-live-codeblock'],
 
   i18n: {
     defaultLocale: 'hu',
@@ -39,22 +38,16 @@ const config = {
   ],
 
   themeConfig: {
-    // Itt bekapcsoljuk az Algoliát
-     algolia: {
-      appId: 'LAQ6FHSMOW',
-      apiKey: '260ea752e0501843448d76bf91a39edd',
-      indexName: 'etesztio'
-    },
-
+    // Alapértelmezett navbar beállítások
     navbar: {
-      title: 'HTML és CSS Tananyag',
+      title: 'Oktatási Anyag',
       items: [
         {
           type: 'search',
           position: 'right',
         },
         {
-          href: 'https://github.com/eteszt/html-css-tananyag',
+          href: 'https://github.com/eteszt/docusaurus-edu-template',
           label: 'GitHub',
           position: 'right',
         },
@@ -62,16 +55,11 @@ const config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright ©TiSoft ${new Date().getFullYear()} HTML és CSS Tananyag`,
+      copyright: `Copyright © ${new Date().getFullYear()} - Minden jog fenntartva`,
     },
+    // Megtartjuk a kód példák beállításait
     liveCodeBlock: {
       playgroundPosition: 'bottom',
-    },
-    // Sötét téma alapértelmezettként
-    colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,  // ha true, akkor nem lehet váltani a témák között
-      respectPrefersColorScheme: false, // ha true, akkor a rendszer beállítását követi
     },
   },
 };

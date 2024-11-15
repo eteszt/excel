@@ -3,40 +3,34 @@ const sidebars = {
     'bevezetes',
     {
       type: 'category',
-      label: 'HTML',
+      label: 'Alapok',
       items: [
-        'html-alapok',
-        'html-elemek',
-        "html-tablazatok-alapok",
-        "html-links-images",
-        'html-playground',
-      ],
-    },
-    {
-    type: 'category',
-      label: 'CSS',
-      items: [
-        "css-basics",
-        "css-properties",
-        "css-box-model",
-        "html-css-cooperation"
+        'bevezetes' // Egyelőre tegyük be ide a bevezetes.md-t példának
       ],
     },
     {
       type: 'category',
-      label: 'Tudáspróba',
+      label: 'Haladó témák',
       items: [
-        'kvizek/html-kviz',
-        'kvizek/css-kviz',
-        'kvizek/html-css-integration-kviz',
+        // Itt most nem kell elem, mert van link property
+        // vagy elem az items tömbben
       ],
+      link: {
+        type: 'doc',
+        id: 'bevezetes'
+      }
     },
     {
       type: 'category',
-      label: 'Érettségi feladatok',
+      label: 'Gyakorlás',
       items: [
-        'feladatok/erettsegi-iskolacsalogato'
+        // Itt most nem kell elem, mert van link property
+        // vagy elem az items tömbben
       ],
+      link: {
+        type: 'doc',
+        id: 'bevezetes'
+      }
     },
   ],
 };

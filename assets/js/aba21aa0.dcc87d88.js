@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkexcel_kezdo=self.webpackChunkexcel_kezdo||[]).push([[5742],{7093:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);

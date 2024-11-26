@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="hu" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-excel-felulet" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.6.3">
+<title data-rh="true">Az Excel program kezelőfelülete | Excel kezdőknek és haladóknak</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://eteszt.github.io/excel/excel-felulet"><meta data-rh="true" property="og:locale" content="hu"><meta data-rh="true" name="docusaurus_locale" content="hu"><meta data-rh="true" name="docsearch:language" content="hu"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Az Excel program kezelőfelülete | Excel kezdőknek és haladóknak"><meta data-rh="true" name="description" content="A táblázatkezelő hatékony használatához először ismerkedjünk meg az Excel program kezelőfelületével és fő komponenseivel."><meta data-rh="true" property="og:description" content="A táblázatkezelő hatékony használatához először ismerkedjünk meg az Excel program kezelőfelületével és fő komponenseivel."><link data-rh="true" rel="icon" href="/excel/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://eteszt.github.io/excel/excel-felulet"><link data-rh="true" rel="alternate" href="https://eteszt.github.io/excel/excel-felulet" hreflang="hu"><link data-rh="true" rel="alternate" href="https://eteszt.github.io/excel/excel-felulet" hreflang="x-default"><link rel="stylesheet" href="/excel/assets/css/styles.3193a991.css">
+<script src="/excel/assets/js/runtime~main.e966f885.js" defer="defer"></script>
+<script src="/excel/assets/js/main.ebcf0ca5.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Ugrás a fő tartalomhoz"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Ugrás a fő tartalomhoz</a></div><nav aria-label="Fő" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Navigációs sáv ki- és bekapcsolása" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/excel/"><b class="navbar__title text--truncate">Excel kezdőknek és haladóknak</b></a></div><div class="navbar__items navbar__items--right"><div class="navbarSearchContainer_Bca1"></div><a href="https://github.com/eteszt/excel" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Váltás a sötét és világos mód között (jelenleg Világos mód van beállítva)" aria-label="Váltás a sötét és világos mód között (jelenleg Világos mód van beállítva)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Vissza a tetejére" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Dokumentációs oldalsáv" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/excel/">Bevezetés</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/excel/excel-felulet">Excel alapok</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/excel/excel-felulet">Kezelőfelület</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/excel/excel-adatbevitel">Adatbevitel és formázás</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/excel/excel-kepletek">Haladó Excel</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/excel/excel-munkafuzet">Gyakorlás</a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Navigációs sáv a jelenlegi oldalhoz"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Kezdőlap" class="breadcrumbs__link" href="/excel/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Excel alapok</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Kezelőfelület</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">Ezen az oldalon</button></div><div class="theme-doc-markdown markdown"><header><h1>Az Excel program kezelőfelülete</h1></header>
+<p>A táblázatkezelő hatékony használatához először ismerkedjünk meg az Excel program kezelőfelületével és fő komponenseivel.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Tipp</div><div class="admonitionContent_BuS1"><p>Az Excel 2019 felülete nagyon hasonló az újabb verziókhoz (pl. Microsoft 365), így az itt tanultak más verziókban is használhatók.</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="az-excel-indítása-és-a-kezdőképernyő">Az Excel indítása és a kezdőképernyő<a href="#az-excel-indítása-és-a-kezdőképernyő" class="hash-link" aria-label="Közvetlen hivatkozás erre: Az Excel indítása és a kezdőképernyő" title="Közvetlen hivatkozás erre: Az Excel indítása és a kezdőképernyő">​</a></h2>
+<div class="tabs-container tabList__CuJ"><ul role="tablist" aria-orientation="horizontal" class="tabs"><li role="tab" tabindex="0" aria-selected="true" class="tabs__item tabItem_LNqP tabs__item--active">Program indítása</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">Kezdőképernyő</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">Gyorsbillentyűk</li></ul><div class="margin-top--md"><div role="tabpanel" class="tabItem_Ymn6"><ul>
+<li>Start menü → Microsoft Excel 2019</li>
+<li>Asztali parancsikon használata</li>
+<li>Windows keresőbe &quot;Excel&quot; beírása</li>
+</ul></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><ul>
+<li>Üres munkafüzet létrehozása</li>
+<li>Sablonok böngészése</li>
+<li>Korábban használt fájlok megnyitása</li>
+</ul></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><ul>
+<li>CTRL + N: Új munkafüzet</li>
+<li>CTRL + O: Megnyitás</li>
+<li>CTRL + S: Mentés</li>
+</ul></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-munkakörnyezet-részei">A munkakörnyezet részei<a href="#a-munkakörnyezet-részei" class="hash-link" aria-label="Közvetlen hivatkozás erre: A munkakörnyezet részei" title="Közvetlen hivatkozás erre: A munkakörnyezet részei">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-címsor-">1. Címsor 📋<a href="#1-címsor-" class="hash-link" aria-label="Közvetlen hivatkozás erre: 1. Címsor 📋" title="Közvetlen hivatkozás erre: 1. Címsor 📋">​</a></h3>
+<ul>
+<li>Legfelül található</li>
+<li>Tartalmazza:<!-- -->
+<ul>
+<li>Program neve (Microsoft Excel)</li>
+<li>Aktuális munkafüzet neve</li>
+<li>Ablakkezelő gombok</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-gyorselérési-eszköztár-">2. Gyorselérési eszköztár ⚡<a href="#2-gyorselérési-eszköztár-" class="hash-link" aria-label="Közvetlen hivatkozás erre: 2. Gyorselérési eszköztár ⚡" title="Közvetlen hivatkozás erre: 2. Gyorselérési eszköztár ⚡">​</a></h3>
+<ul>
+<li>A címsor alatt vagy mellett</li>
+<li>Gyakran használt parancsok:<!-- -->
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">💾 Mentés | ↩ Visszavonás | ↪ Mégis</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Másolás a vágólapra" title="Másolás" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>Testreszabható a gyakran használt műveletekkel</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-menüszalag-ribbon-">3. Menüszalag (Ribbon) 🎯<a href="#3-menüszalag-ribbon-" class="hash-link" aria-label="Közvetlen hivatkozás erre: 3. Menüszalag (Ribbon) 🎯" title="Közvetlen hivatkozás erre: 3. Menüszalag (Ribbon) 🎯">​</a></h3>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Fontos</div><div class="admonitionContent_BuS1"><p>A menüszalag az Excel legfontosabb vezérlőeleme. Tartalmazza az összes szükséges eszközt a hatékony munkavégzéshez.</p></div></div>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><strong>Fájl lap</strong> - Alapműveletek</summary><div><div class="collapsibleContent_i85q"><ul>
+<li>Új munkafüzet létrehozása</li>
+<li>Megnyitás és mentés</li>
+<li>Nyomtatás</li>
+<li>Excel beállítások</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><strong>Kezdőlap</strong> - Gyakori műveletek</summary><div><div class="collapsibleContent_i85q"><ul>
+<li>Vágólap műveletek</li>
+<li>Betűtípus beállítások</li>
+<li>Igazítás</li>
+<li>Számformátumok</li>
+<li>Cellastílusok</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><strong>Beszúrás lap</strong> - Objektumok</summary><div><div class="collapsibleContent_i85q"><ul>
+<li>Táblázatok és diagramok</li>
+<li>Képek és alakzatok</li>
+<li>Hivatkozások</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><strong>További lapok</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li>Lapelrendezés: témák, oldalbeállítás</li>
+<li>Képletek: függvények, számítások</li>
+<li>Adatok: importálás, szűrés</li>
+<li>Nézet: megjelenítési beállítások</li>
+</ul></div></div></details>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-munkalap-">4. Munkalap 📊<a href="#4-munkalap-" class="hash-link" aria-label="Közvetlen hivatkozás erre: 4. Munkalap 📊" title="Közvetlen hivatkozás erre: 4. Munkalap 📊">​</a></h3>
+<p>A fő munkaterület felépítése:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">    A    B    C    D    E</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"> 1  [ ]  [ ]  [ ]  [ ]  [ ]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"> 2  [ ]  [ ]  [ ]  [ ]  [ ]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"> 3  [ ]  [ ]  [ ]  [ ]  [ ]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Másolás a vágólapra" title="Másolás" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ul>
+<li>Sorok: számozott (1, 2, 3...)</li>
+<li>Oszlopok: betűk (A, B, C...)</li>
+<li>Cellák: oszlop és sor kereszteződése (pl. A1)</li>
+<li>Cellatartomány: több összefüggő cella (pl. A1<!-- -->:B4<!-- -->)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-munkalapfülek-">5. Munkalapfülek 📑<a href="#5-munkalapfülek-" class="hash-link" aria-label="Közvetlen hivatkozás erre: 5. Munkalapfülek 📑" title="Közvetlen hivatkozás erre: 5. Munkalapfülek 📑">​</a></h3>
+<ul>
+<li>Munkalapok közötti navigáció</li>
+<li>Műveletek:<!-- -->
+<ul>
+<li>Új lap beszúrása (+)</li>
+<li>Átnevezés (dupla kattintás)</li>
+<li>Mozgatás (húzás)</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-állapotsor-">6. Állapotsor 📈<a href="#6-állapotsor-" class="hash-link" aria-label="Közvetlen hivatkozás erre: 6. Állapotsor 📈" title="Közvetlen hivatkozás erre: 6. Állapotsor 📈">​</a></h3>
+<ul>
+<li>Információk az aktuális műveletről</li>
+<li>Nézetek váltása és nagyítás</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="alapfogalmak-és-billentyűparancsok">Alapfogalmak és billentyűparancsok<a href="#alapfogalmak-és-billentyűparancsok" class="hash-link" aria-label="Közvetlen hivatkozás erre: Alapfogalmak és billentyűparancsok" title="Közvetlen hivatkozás erre: Alapfogalmak és billentyűparancsok">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fontos-fogalmak">Fontos fogalmak<a href="#fontos-fogalmak" class="hash-link" aria-label="Közvetlen hivatkozás erre: Fontos fogalmak" title="Közvetlen hivatkozás erre: Fontos fogalmak">​</a></h3>
+<table><thead><tr><th>Fogalom</th><th>Leírás</th></tr></thead><tbody><tr><td>Cella</td><td>A táblázat egy &quot;doboza&quot;, egyedi címmel (pl. A1)</td></tr><tr><td>Aktív cella</td><td>Az éppen kijelölt, vastag szegéllyel jelölt cella</td></tr><tr><td>Cellatartomány</td><td>Több összefüggő cella (pl. A1<!-- -->:B4<!-- -->)</td></tr><tr><td>Munkafüzet</td><td>Az Excel fájl (.xlsx)</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="gyakori-billentyűparancsok-️">Gyakori billentyűparancsok ⌨️<a href="#gyakori-billentyűparancsok-️" class="hash-link" aria-label="Közvetlen hivatkozás erre: Gyakori billentyűparancsok ⌨️" title="Közvetlen hivatkozás erre: Gyakori billentyűparancsok ⌨️">​</a></h3>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Pro tipp</div><div class="admonitionContent_BuS1"><p>A billentyűparancsok használata jelentősen gyorsítja a munkát!</p></div></div>
+<table><thead><tr><th>Művelet</th><th>Windows</th><th>Mac</th></tr></thead><tbody><tr><td>Mentés</td><td>CTRL + S</td><td>⌘ + S</td></tr><tr><td>Másolás</td><td>CTRL + C</td><td>⌘ + C</td></tr><tr><td>Beillesztés</td><td>CTRL + V</td><td>⌘ + V</td></tr><tr><td>Visszavonás</td><td>CTRL + Z</td><td>⌘ + Z</td></tr><tr><td>Mindent kijelöl</td><td>CTRL + A</td><td>⌘ + A</td></tr><tr><td>Cellatartalom szerkesztése</td><td>F2</td><td>F2</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="gyakorlati-tippek-">Gyakorlati tippek 💡<a href="#gyakorlati-tippek-" class="hash-link" aria-label="Közvetlen hivatkozás erre: Gyakorlati tippek 💡" title="Közvetlen hivatkozás erre: Gyakorlati tippek 💡">​</a></h2>
+<ol>
+<li>
+<p><strong>Gyors navigáció</strong></p>
+<ul>
+<li>CTRL + nyilak: Gyors mozgás a táblázatban</li>
+<li>CTRL + Home: Ugrás a táblázat elejére (A1)</li>
+<li>CTRL + End: Ugrás az utolsó használt cellához</li>
+</ul>
+</li>
+<li>
+<p><strong>Hatékony kijelölés</strong></p>
+<ul>
+<li>Shift + nyilak: Több cella kijelölése</li>
+<li>CTRL + Shift + nyilak: Teljes adatterület kijelölése</li>
+<li>CTRL + Space: Teljes oszlop kijelölése</li>
+<li>Shift + Space: Teljes sor kijelölése</li>
+</ul>
+</li>
+<li>
+<p><strong>Munkalapok kezelése</strong></p>
+<ul>
+<li>CTRL + PageUp/PageDown: Váltás munkalapok között</li>
+<li>Shift + F11: Új munkalap beszúrása</li>
+</ul>
+</li>
+</ol></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Dokumentációs oldal"><a class="pagination-nav__link pagination-nav__link--prev" href="/excel/"><div class="pagination-nav__sublabel">Előző oldal</div><div class="pagination-nav__label">Bevezetés</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/excel/excel-adatbevitel"><div class="pagination-nav__sublabel">Következő oldal</div><div class="pagination-nav__label">Adatbevitel és formázás</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#az-excel-indítása-és-a-kezdőképernyő" class="table-of-contents__link toc-highlight">Az Excel indítása és a kezdőképernyő</a></li><li><a href="#a-munkakörnyezet-részei" class="table-of-contents__link toc-highlight">A munkakörnyezet részei</a><ul><li><a href="#1-címsor-" class="table-of-contents__link toc-highlight">1. Címsor 📋</a></li><li><a href="#2-gyorselérési-eszköztár-" class="table-of-contents__link toc-highlight">2. Gyorselérési eszköztár ⚡</a></li><li><a href="#3-menüszalag-ribbon-" class="table-of-contents__link toc-highlight">3. Menüszalag (Ribbon) 🎯</a></li><li><a href="#4-munkalap-" class="table-of-contents__link toc-highlight">4. Munkalap 📊</a></li><li><a href="#5-munkalapfülek-" class="table-of-contents__link toc-highlight">5. Munkalapfülek 📑</a></li><li><a href="#6-állapotsor-" class="table-of-contents__link toc-highlight">6. Állapotsor 📈</a></li></ul></li><li><a href="#alapfogalmak-és-billentyűparancsok" class="table-of-contents__link toc-highlight">Alapfogalmak és billentyűparancsok</a><ul><li><a href="#fontos-fogalmak" class="table-of-contents__link toc-highlight">Fontos fogalmak</a></li><li><a href="#gyakori-billentyűparancsok-️" class="table-of-contents__link toc-highlight">Gyakori billentyűparancsok ⌨️</a></li></ul></li><li><a href="#gyakorlati-tippek-" class="table-of-contents__link toc-highlight">Gyakorlati tippek 💡</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 - Minden jog fenntartva</div></div></div></footer></div>
+</body>
+</html>

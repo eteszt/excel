@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkexcel_kezdo=self.webpackChunkexcel_kezdo||[]).push([[890],{890:(e,c,k)=>{k.d(c,{createInfoServices:()=>s.v});var s=k(7021);k(9369)}}]);

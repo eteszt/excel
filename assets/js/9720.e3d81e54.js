@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkexcel_kezdo=self.webpackChunkexcel_kezdo||[]).push([[9720],{9720:(e,c,k)=>{k.d(c,{createArchitectureServices:()=>r.S});var r=k(9936);k(9369)}}]);

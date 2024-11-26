@@ -1,64 +1,98 @@
 ---
 id: bevezetes
-title: Bevezetés a tananyagba
+title: Bevezetés a táblázatkezelésbe
 sidebar_label: Bevezetés
 slug: /
 ---
 
-# Bevezetés a tananyagba
+# Bevezetés a táblázatkezelésbe
 
-Üdvözlünk az oktatási anyagban! Ez a kurzus segít megérteni a [témakör] alapjait.
+A táblázatkezelés alapjait az Excel 2019 program segítségével sajátíthatjuk el. De mi is az a táblázatkezelés és miért olyan hasznos?
 
-## Mit fogsz tanulni?
+## Mi a táblázatkezelés?
 
-### Alapok
-- [Első fő témakör]
-- [Második fő témakör]
-- [Harmadik fő témakör]
+A táblázatkezelő olyan számítógépes program, amely lehetővé teszi számunkra, hogy adatainkat rendezett formában, táblázatos elrendezésben tároljuk és kezeljük. Olyan ez, mint egy "szuper jegyzetfüzet", ahol az adatok nemcsak szépen rendezettek, hanem különböző műveleteket is el tudunk végezni velük.
 
-### Gyakorlati ismeretek
-- [Gyakorlati terület 1]
-- [Gyakorlati terület 2]
-- [Gyakorlati terület 3]
+## Mire használható a táblázatkezelő?
 
-## Hogyan használd a tananyagot?
+A táblázatkezelő programok (mint az Excel) rengeteg területen segítik munkánkat:
 
-1. **Sorrendben haladj**: Az anyagok egymásra épülnek
-2. **Próbáld ki**: Minden lecke tartalmaz gyakorlati példákat
-3. **Gyakorolj**: Oldd meg a feladatokat minden fejezet végén!
+1. **Adatok rendszerezése**
+   - Osztálynévsor készítése
+   - Sporteredmények nyilvántartása
+   - Könyvtár katalógus összeállítása
+   - Bevásárlólista és költségvetés készítése
 
-## Szükséges előismeretek
+2. **Számítások elvégzése**
+   - Átlagok számítása (például osztályzatok átlaga)
+   - Összegzések (például zsebpénz havi összesítése)
+   - Statisztikák készítése
+   - Százalékszámítás
 
-- [Előismeret 1]
-- [Előismeret 2]
-- [Előismeret 3]
+3. **Adatok elemzése**
+   - Minimum és maximum értékek keresése
+   - Feltételes kimutatások készítése
+   - Adatok szűrése és rendezése
 
-## Ajánlott eszközök
+4. **Vizuális megjelenítés**
+   - Diagramok készítése
+   - Grafikonok rajzolása
+   - Színes táblázatok formázása
 
-### [Eszköztípus 1]
-- [Eszköz 1]
-- [Eszköz 2]
-- [Eszköz 3]
+## Alapvető műveletek a táblázatkezelőben
 
-### [Eszköztípus 2]
-- [Eszköz 1]
-- [Eszköz 2]
-- [Eszköz 3]
+### 1. Adatbevitel
+- Szövegek, számok begépelése a cellákba
+- Dátumok és időpontok rögzítése
+- Automatikus kitöltés sorozatokkal (pl. hónapok, napok)
 
-## Kezdjük el!
+### 2. Szerkesztés
+- Másolás, kivágás, beillesztés
+- Cellák, sorok, oszlopok beszúrása és törlése
+- Cellatartalom módosítása
+- Cellaformátum változtatása
 
-Most pedig kezdjük az alapoktól:
+### 3. Számítások
+- Egyszerű műveletek (+, -, *, /)
+- Képletek használata
+- Függvények alkalmazása (pl. SZUM, ÁTLAG, MIN, MAX)
 
-- [Első lecke címe](elso-lecke) - Itt kezdd a tanulást!
+### 4. Formázás
+- Betűtípus és méret változtatása
+- Cellák színezése
+- Szegélyek beállítása
+- Számformátumok alkalmazása
 
-:::tip Tipp
-Minden lecke végén találsz gyakorlati feladatokat és ellenőrző kérdéseket. Ezek segítenek elmélyíteni a tanultakat.
-:::
+### 5. Adatok rendezése és szűrése
+- Növekvő/csökkenő sorrendbe rendezés
+- Adatok szűrése különböző feltételek alapján
+- Duplikátumok kezelése
 
-## Segítségre van szükséged?
+## Miért jó ezt megtanulni?
 
-Ha elakadnál:
-1. Olvasd el újra az adott fejezetet
-2. Nézd meg a példakódokat
-3. Próbáld ki a gyakorlati feladatokat
-4. Használd a megadott külső forrásokat
+1. **Időt spórolunk vele**
+   - Amit papíron órákig számolnánk, azt a program másodpercek alatt elvégzi
+   - Az ismétlődő feladatokat automatizálhatjuk
+
+2. **Pontosabb munka**
+   - A számítási hibák elkerülhetők
+   - Az adatok könnyen ellenőrizhetők
+
+3. **Rugalmas használat**
+   - Könnyen módosíthatók az adatok
+   - Gyorsan készíthetünk különböző kimutatásokat
+   - Látványos diagramokkal szemléltethetjük az információkat
+
+4. **Gyakorlati haszon**
+   - Az iskolában: tanulmányi eredmények követése
+   - Otthon: családi költségvetés készítése
+   - Későbbi munkában: széles körben használt eszköz
+
+## Mit fogunk tanulni?
+
+A következő leckékben megismerkedünk:
+- Az Excel program kezelőfelületével
+- Az alapvető műveletek elvégzésével
+- Képletek és függvények használatával
+- Diagramok készítésével
+- Gyakorlati feladatok megoldásával

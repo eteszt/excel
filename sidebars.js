@@ -3,34 +3,29 @@ const sidebars = {
     'bevezetes',
     {
       type: 'category',
-      label: 'Alapok',
+      label: 'Excel alapok',
       items: [
-        'bevezetes' // Egyelőre tegyük be ide a bevezetes.md-t példának
+        'excel-felulet',
+        'excel-adatbevitel',
       ],
     },
     {
       type: 'category',
-      label: 'Haladó témák',
+      label: 'Haladó Excel',
       items: [
-        // Itt most nem kell elem, mert van link property
-        // vagy elem az items tömbben
+        'excel-kepletek',
+        'excel-feltetel-fuggvenyek',
+        'excel-keresofuggvenyek',
+        'excel-diagramok',
       ],
-      link: {
-        type: 'doc',
-        id: 'bevezetes'
-      }
     },
     {
       type: 'category',
       label: 'Gyakorlás',
       items: [
-        // Itt most nem kell elem, mert van link property
-        // vagy elem az items tömbben
+        'excel-munkafuzet',
+        'excel-gyakorlas',
       ],
-      link: {
-        type: 'doc',
-        id: 'bevezetes'
-      }
     },
   ],
 };

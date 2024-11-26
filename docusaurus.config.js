@@ -1,20 +1,27 @@
 const config = {
-  title: 'Oktatási Anyag',
+  title: 'Excel kezdőknek és haladóknak',
   tagline: 'Interaktív tananyag',
   favicon: 'img/favicon.ico',
 
-  // Itt az URL-t és baseUrl-t kell majd módosítani az új projekteknél
   url: 'https://eteszt.github.io',
-  baseUrl: '/docusaurus-edu-template/',
+  baseUrl: '/excel/',
   organizationName: 'eteszt', 
-  projectName: 'docusaurus-edu-template',
+  projectName: 'excel',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Megtartjuk az interaktív kód blokkokat
-  themes: ['@docusaurus/theme-live-codeblock'],
+  // Témák: hozzáadjuk a mermaid témát is
+  themes: [
+    '@docusaurus/theme-live-codeblock',
+    '@docusaurus/theme-mermaid'
+  ],
+
+  // Markdown beállítások: engedélyezzük a mermaid-et
+  markdown: {
+    mermaid: true,
+  },
 
   i18n: {
     defaultLocale: 'hu',
@@ -38,16 +45,15 @@ const config = {
   ],
 
   themeConfig: {
-    // Alapértelmezett navbar beállítások
     navbar: {
-      title: 'Oktatási Anyag',
+      title: 'Excel kezdőknek és haladóknak',
       items: [
         {
           type: 'search',
           position: 'right',
         },
         {
-          href: 'https://github.com/eteszt/docusaurus-edu-template',
+          href: 'https://github.com/eteszt/excel',
           label: 'GitHub',
           position: 'right',
         },
@@ -57,7 +63,6 @@ const config = {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} - Minden jog fenntartva`,
     },
-    // Megtartjuk a kód példák beállításait
     liveCodeBlock: {
       playgroundPosition: 'bottom',
     },

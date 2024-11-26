@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Excel kezdőknek és haladóknak</ShortName>
+  <Description>Search Excel kezdőknek és haladóknak</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://eteszt.github.io/excel/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://eteszt.github.io/excel/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://eteszt.github.io/excel/opensearch.xml" />
+  <moz:SearchForm>https://eteszt.github.io/excel/</moz:SearchForm>
+</OpenSearchDescription>

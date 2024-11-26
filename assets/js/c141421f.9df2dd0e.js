@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkexcel_kezdo=self.webpackChunkexcel_kezdo||[]).push([[957],{936:e=>{e.exports=JSON.parse('{"name":"docusaurus-theme-search-algolia","id":"default"}')}}]);

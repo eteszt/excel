@@ -45,6 +45,23 @@ const config = {
   ],
 
   themeConfig: {
+    // A search beállítások
+    // TODO: Algolia keresés beállítása
+    
+    algolia: {
+      apiKey: 'eaefd8b63c6cf32c17431f10e2ba8051',
+      indexName: 'sek',
+      appId: 'V4NU5FZZK3',
+      contextualSearch: true,
+      placeholder: 'Keresés a tananyagban',
+    },
+    
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
+
     navbar: {
       title: 'Excel kezdőknek és haladóknak',
       items: [
